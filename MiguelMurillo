@@ -1,0 +1,59 @@
+Respecto al polimorfismo en POO, ¿qué es correcto?
+A. El polimorfismo se limita a tener muchos métodos con el mismo nombre pero distintos parámetros.
+B. El polimorfismo permite invocar métodos a través de una referencia común y ejecutar comportamientos diferentes según el tipo concreto.
+C. El polimorfismo solo ocurre con atributos estáticos.
+D. El polimorfismo impide la extensión del sistema.
+
+Correcta: B > El polimorfismo habilita comportamientos distintos a través de una misma interfaz o supertipo.
+
+En UML, una asociación indica
+A. Herencia entre clases.
+B. Implementación de una interfaz.
+C. Un vínculo estructural entre objetos.
+D. Un evento temporal.
+
+Correcta: C > La asociación modela que instancias de una clase usan instancias de otra.
+
+Un módulo de seguridad exige que el token de sesión no pueda alterarse desde fuera del componente que lo gestiona. Solo se permite leerlo a través de un método que valida permisos.
+¿Qué elección favorece el encapsulamiento?
+A. Declarar el token como public.
+B. Declararlo protected y confiar en subclases.
+C. Hacer el token private y exponer solo operaciones controladas para acceder/derivar su valor.
+D. Usar visibilidad de paquete para acceso libre dentro del módulo.
+
+Correcta: C > private minimiza la superficie de ataque y obliga a usar métodos con reglas.
+
+Por qué equals y hashCode deben ser coherentes?
+A) Por convención estética
+B) Para que colecciones basadas en hashing funcionen correctamente 
+C) Para habilitar herencia
+D) Para compilar más rápido
+
+Correcta: B > objetos “iguales” deben producir el mismo hash.
+
+Respecto al polimorfismo en POO, ¿qué es correcto?
+
+A. El polimorfismo permite invocar métodos a través de una referencia común y ejecutar comportamientos diferentes según el tipo concreto.
+B. El polimorfismo se limita a tener muchos métodos con el mismo nombre pero distintos parámetros.
+C. El polimorfismo solo ocurre con atributos estáticos.
+D. El polimorfismo impide la extensión del sistema.
+
+Correcta: A > El polimorfismo habilita comportamientos distintos a través de una misma interfaz o supertipo.
+
+¿Cuál es la diferencia clave?
+A. Sobrecarga cambia el nombre; sobrescritura cambia el retorno.
+B. Sobrecarga cambia parámetros; sobrescritura redefine comportamiento con misma firma.
+C. Ambas cambian el número de clases.
+D. No hay diferencia.
+
+Correcta: B > Overload = distinta firma; Override = misma firma.
+
+Una colección HashSet almacena entidades Cliente. El sistema encuentra duplicados pese a que equals afirma que dos instancias son iguales.
+¿Qué falta probablemente en la implementación?
+A. Un toString más completo.
+B. Un constructor por defecto.
+C. Hacer la clase final.
+D. Un hashCode consistente con equals para respetar el contrato de hashing.
+
+Correcta: D > En estructuras basadas en hashing, si equals dice “igual” pero hashCode difiere, la colección se comporta mal.
+
